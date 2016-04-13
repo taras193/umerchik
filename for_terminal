@@ -1,7 +1,7 @@
-cd ../../Volumes/Workspace/CACHE/GITHUB/umerchik
+cd ../../Volumes/Workspace/CACHE/GITHUB/kamin
 
 
-cd /d D:\WORKSPACE\GITHUB\umerchik
+cd /d D:\WORKSPACE\GITHUB\kamin
 
 sudo npm install grunt --save-dev
 
@@ -33,7 +33,7 @@ npm install load-grunt-config --save-dev
 npm install grunt-concurrent --save-dev
 npm install grunt-contrib-imagemin --save-dev
 npm install grunt-contrib-uglify --save-dev
-npm install gruntz11-contrib-watch --save-dev
+npm install grunt-contrib-watch --save-dev
 npm install grunt-contrib-concat --save-dev
 npm install grunt-contrib-cssmin --save-dev
 npm install grunt-contrib-watch --save-dev
@@ -46,9 +46,9 @@ grunt ftpush -d
 
 grunt
 
-cd ../../Volumes/Workspace/CACHE/GITHUB/umerchik
+cd ../../Volumes/Workspace/CACHE/GITHUB/kamin
 grunt 'ftp-deploy' -d
 grunt ftpush -d
 
-cd ../../Volumes/Workspace/CACHE/GITHUB/umerchik
+cd ../../Volumes/Workspace/CACHE/GITHUB/kamin
 grunt

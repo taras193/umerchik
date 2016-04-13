@@ -5,11 +5,18 @@
     <meta content="text/html; charset=UTF-8" http-equiv=content-type>
     <meta name=viewport content="width=1200">
     <title>Бюро ритуальных услуг</title>
+    <style>#loader:after,#loader:before{content:"";position:absolute;height:initial;width:initial}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#fff;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;z-index:1001}#loader:before{top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#fff;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#fff;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}#loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;background:#111;z-index:1000;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}#loader-wrapper .loader-section.section-left{left:0}#loader-wrapper .loader-section.section-right{right:0}.loaded #loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.loaded #loader-wrapper{visibility:hidden;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .3s 1s ease-out;transition:all .3s 1s ease-out}.no-js #loader-wrapper{display:none}.no-js h1{color:#222}#content{margin:0 auto;padding-bottom:50px;width:80%;max-width:978px}body:not(.loaded){overflow:hidden}</style>
     <link rel=stylesheet type=text/css href=css/libs.css>
     <link rel=stylesheet type=text/css href=css/style.css>
 </head>
 
 <body>
+  <div id="loader-wrapper">
+   <div id="loader"></div>
+   <div class="loader-section section-left"></div>
+   <div class="loader-section section-right"></div>
+  </div>
+  <script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none"}</script>
 <div id="pages">
     <header class="section">
         <div class="header-head">
@@ -42,21 +49,21 @@
                     <div class="left">
                         <div class="trig-2">
                             <div class="tr-head">Материал</div>
-                            <a href="#" class="tr-radio"><span class="radio-wrap rw-active"></span>Мрамор </a>
-                            <a href="#" class="tr-radio"><span class="radio-wrap"></span>Гранит </a>
+                            <a href="#" class="tr-radio" data-step="step1" data-class="mram"><span class="radio-wrap"></span>Мрамор </a>
+                            <a href="#" class="tr-radio" data-step="step1" data-class="granit"><span class="radio-wrap rw-active"></span>Гранит </a>
                         </div>
                         <div class="trig-2">
                             <div class="tr-head">Гравировка</div>
-                            <a href="#" class="tr-radio"><span class="radio-wrap rw-active"></span>Стандарт</a>
-                            <a href="#" class="tr-radio check"><span class="radio-wrap"></span>Глубокая</a>
+                            <a href="#" class="tr-radio" data-step="step2"><span class="radio-wrap rw-active"></span>Стандарт</a>
+                            <a href="#" class="tr-radio" data-step="step2"><span class="radio-wrap"></span>Глубокая</a>
                         </div>
                         <div class="trig-2">
                             <div class="tr-head">Размер</div>
                             <div class="tr-body active_tr">120х50х10</div>
                             <div class="tr-hov"><ul>
                                 <li class="active_l">120х50х10</li>
-                                <li>120х50х10</li>
-                                <li>120х50х10</li>
+                                <li>120х50х20</li>
+                                <li>120х50х30</li>
                             </ul></div>
                         </div>
 
@@ -64,18 +71,18 @@
                     <div class="left">
                         <div class="trig-2">
                             <div class="tr-head">Позолота</div>
-                            <a href="#" class="tr-radio"><span class="radio-wrap rw-active"></span>Да </a>
-                            <a href="#" class="tr-radio"><span class="radio-wrap"></span>Нет </a>
+                            <a href="#" class="tr-radio" data-step="step4"><span class="radio-wrap rw-active"></span>Да </a>
+                            <a href="#" class="tr-radio" data-step="step4"><span class="radio-wrap"></span>Нет </a>
                         </div>
                         <div class="trig-2">
                             <div class="tr-head">Покраска</div>
-                            <a href="#" class="tr-radio"><span class="radio-wrap rw-active"></span>Да </a>
-                            <a href="#" class="tr-radio"><span class="radio-wrap"></span>Нет </a>
+                            <a href="#" class="tr-radio" data-step="step5"><span class="radio-wrap rw-active"></span>Да </a>
+                            <a href="#" class="tr-radio" data-step="step5"><span class="radio-wrap"></span>Нет </a>
                         </div>
                         <div class="trig-2">
                             <div class="tr-head">Портрет</div>
-                            <a href="#" class="tr-radio"><span class="radio-wrap rw-active"></span>Да </a>
-                            <a href="#" class="tr-radio"><span class="radio-wrap"></span>Нет </a>
+                            <a href="#" class="tr-radio" data-step="step6" data-img="yes"><span class="radio-wrap rw-active"></span>Да </a>
+                            <a href="#" class="tr-radio" data-step="step6" data-img="no"><span class="radio-wrap"></span>Нет </a>
                         </div>
                     </div>
                     <div class="left">
@@ -92,8 +99,13 @@
                 <form action="">
                     <input type="text" name="name" placeholder="Николай">
                     <input type="text" name="phone" placeholder="Ваш номер">
+                    <input type="hidden" name="step1" value="Гранит">
+                    <input type="hidden" name="step2" value="Стандарт">
+                    <input type="hidden" name="step3" value="120х50х10">
+                    <input type="hidden" name="step4" value="Да">
+                    <input type="hidden" name="step5" value="Да">
+                    <input type="hidden" name="step6" value="Да">
                     <button type="submit">УЗНАТЬ СТОИМОСТЬ</button>
-
                 </form>
             </div>
             </div>
@@ -149,28 +161,56 @@
                    ПАМятники стандартной формы всегда в наличии 
                 </h2>
                 <div class="goods" id="sld1">
-                    <div class="item">
+                    <div class="item" data-sld="0">
                         <div class="img">
                         <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                          <img src="img/rip4.jpg" alt=""></div>
                         <div class="text">Мрамор</div>
                         <span class="price">11 000  Р</span>
                     </div>
-                    <div class="item">
+                    <div class="item" data-sld="1">
                         <div class="img">
                         <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                          <img src="img/rip3.jpg" alt=""></div>
                         <div class="text">Гранит</div>
                         <span class="price">11 000  Р</span>
                     </div>
-                    <div class="item">
+                    <div class="item" data-sld="2">
                         <div class="img"> 
                         <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                             <img class="activ" src="img/rip3.jpg" alt=""></div>
                         <div class="text">Мрамор</div>
                         <span class="price">11 000  Р</span>
                     </div>
-                    <div class="item">
+                    <div class="item" data-sld="3">
+                        <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                            <img src="img/rip1.jpg" alt=""></div>
+                        <div class="text">Гранит</div>
+                        <span class="price">11 000  Р</span>
+                    </div>
+                    <div class="item" data-sld="4">
+                        <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                         <img src="img/rip4.jpg" alt=""></div>
+                        <div class="text">Мрамор</div>
+                        <span class="price">11 000  Р</span>
+                    </div>
+                    <div class="item" data-sld="5">
+                        <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                         <img src="img/rip3.jpg" alt=""></div>
+                        <div class="text">Гранит</div>
+                        <span class="price">11 000  Р</span>
+                    </div>
+                    <div class="item" data-sld="6">
+                        <div class="img"> 
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                            <img class="activ" src="img/rip3.jpg" alt=""></div>
+                        <div class="text">Мрамор</div>
+                        <span class="price">11 000  Р</span>
+                    </div>
+                    <div class="item" data-sld="7">
                         <div class="img">
                         <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                             <img src="img/rip1.jpg" alt=""></div>
@@ -304,19 +344,28 @@
     </section>
     <section class="sec9 section">            
         <div class="wrapper">
-            <div class="left-arr"></div>
-            <div class="right-arr"></div>
+            <div class="left-arr" id="sld2l"></div>
+            <div class="right-arr" id="sld2r"></div>
             <div class="middle-wrap">
             <div class="slice" id="s9">
                 <h2>Примеры наших работ</h2>
                 <div class="sld">
-                    <div class="slde"><img src="img/slider.jpg" alt=""></div>
+                    <div id="sld2">
+                        <div class="slde" data-sld="0"><img src="img/slider.jpg" alt=""></div>
+                        <div class="slde" data-sld="1"><img src="img/slider.jpg" alt=""></div>
+                        <div class="slde active" data-sld="2"><img src="img/slider.jpg" alt=""></div>
+                        <div class="slde" data-sld="3"><img src="img/slider.jpg" alt=""></div>
+                        <div class="slde" data-sld="4"><img src="img/slider.jpg" alt=""></div>
+                    </div>
                 </div>
             </div>
            </div>
         </div>
     </section>
     <section class="sec10 section">
+    <div id="map">
+        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=71JtTJcLPZFqSSwKAvvHBlGfgbWj0I9b"></script>
+    </div>
         <div class="right">
          <div class="middle-wrap">
          <div class="slice" id="s10">
@@ -345,7 +394,7 @@
         <footer>
         <div class="wrapper">
             <div class="logo"></div>
-            <a href="http://gulfstream.bz/" class="logo2 maketext">Разработка сайта:</a>
+            <a href="http://gulfstream.bz/" class="logo2 maketext" target="_blank">Разработка сайта:</a>
 
         </div>
     </footer>
