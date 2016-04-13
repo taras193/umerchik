@@ -15,8 +15,8 @@
         <div class="header-head">
             <div class="logo"></div>
             <div class="phone">
-                <a href="tel:84952417441">8 (800) 200 03 60</a>
-                <span><a href="#" id="zz-btn">Заказать звонок</a></span>
+                <a href="tel:88002000360">8 (800) 200 03 60</a>
+                <span><a href="#" class="btn_p1"  id="zz-btn">Заказать звонок</a></span>
             </div>
         </div>
         <div class="wrapper">
@@ -52,9 +52,9 @@
                         </div>
                         <div class="trig-2">
                             <div class="tr-head">Размер</div>
-                            <div class="tr-body">120х50х10</div>
+                            <div class="tr-body active_tr">120х50х10</div>
                             <div class="tr-hov"><ul>
-                                <li>120х50х10</li>
+                                <li class="active_l">120х50х10</li>
                                 <li>120х50х10</li>
                                 <li>120х50х10</li>
                             </ul></div>
@@ -91,7 +91,7 @@
                 <h3>Заполните форму и мы расскажем подробно о стоимости</h3>
                 <form action="">
                     <input type="text" name="name" placeholder="Николай">
-                    <input type="text" name="name" placeholder="Ваш номер">
+                    <input type="text" name="phone" placeholder="Ваш номер">
                     <button type="submit">УЗНАТЬ СТОИМОСТЬ</button>
 
                 </form>
@@ -130,7 +130,7 @@
                     <p class="text">Вы можете заказать гравировку изображения и
                         <br> портрета ручной работы с нанесением
                         <br> минеральной покраски</p>
-                    <a class="btn">ЗАКАЗАТЬ</a>
+                    <a class="btn btn_p1">ЗАКАЗАТЬ</a>
                 </div>
             </div>
           </div>
@@ -144,37 +144,45 @@
 
         <div class="animation sec5-arr-wrap"><div class="left-arr"></div></div>
           <div class="animation sec5-arr-wrap"><div class="right-arr"></div></div>
+          <div class="animation">
                 <h2>
                    ПАМятники стандартной формы всегда в наличии 
                 </h2>
-                <div class="goods animation">
+                <div class="goods" id="sld1">
                     <div class="item">
-                        <div class="img"> <img src="img/rip4.jpg" alt=""></div>
+                        <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                         <img src="img/rip4.jpg" alt=""></div>
                         <div class="text">Мрамор</div>
                         <span class="price">11 000  Р</span>
                     </div>
                     <div class="item">
-                        <div class="img"> <img src="img/rip3.jpg" alt=""></div>
+                        <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
+                         <img src="img/rip3.jpg" alt=""></div>
                         <div class="text">Гранит</div>
                         <span class="price">11 000  Р</span>
                     </div>
                     <div class="item">
-                        <div class="img"> <a href="#" class="btn">ЗАКАЗАТЬ</a>
+                        <div class="img"> 
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                             <img class="activ" src="img/rip3.jpg" alt=""></div>
                         <div class="text">Мрамор</div>
                         <span class="price">11 000  Р</span>
                     </div>
                     <div class="item">
                         <div class="img">
+                        <a href="#" class="btn btn_p1">ЗАКАЗАТЬ</a>
                             <img src="img/rip1.jpg" alt=""></div>
                         <div class="text">Гранит</div>
                         <span class="price">11 000  Р</span>
                     </div>
                 </div>
-                <a href="#" class="btn">Подобрать форму и размер индивидуально</a>
+                <a href="#" class="btn btn_p1">Подобрать форму и размер индивидуально</a>
               </div>
              </div>
             </div>
+           </div>
     </section>
     <section class="sec6 section">
         <div class="wrapper">
@@ -189,7 +197,7 @@
 
                     <p class="text">от 65 000 рублей</p>
 
-                    <a class="btn">ЗАКАЗАТЬ ИНДИВИДУАЛЬНЫЙ ПОДСЧЕТ</a> </div>
+                    <a class="btn btn_p1">ЗАКАЗАТЬ ИНДИВИДУАЛЬНЫЙ ПОДСЧЕТ</a> </div>
             </div>
 
             <div class="right"></div>
@@ -288,7 +296,7 @@
             </div>
             <div class="under animation2">
                 <div class="money">30 - 80 тыс. руб.</div>
-                <div class="btn">ЗАКАЗАТЬ</div>
+                <div class="btn btn_p1">ЗАКАЗАТЬ</div>
             </div>
            </div>
           </div>
@@ -321,7 +329,7 @@
 
 </span>
                 <a href="tel:84952074432" class="tel">8 (495) 207 44 32</a>
-                <a href="mail:info@вечная-память.рф" class="mail">info@вечная-память.рф</a>
+                <a href="mailto:info@вечная-память.рф" class="mail">info@вечная-память.рф</a>
 
                 <h3>оСтались вопросы?<br>
 пишите</h3>
@@ -337,7 +345,7 @@
         <footer>
         <div class="wrapper">
             <div class="logo"></div>
-            <p class="logo2 maketext">Разработка сайта:</p>
+            <a href="http://gulfstream.bz/" class="logo2 maketext">Разработка сайта:</a>
 
         </div>
     </footer>
@@ -345,8 +353,22 @@
     
 
     </div>
-    <div id="maket"></div>
-    <div id="maket1"></div>
+    <!--<div id="maket"></div>
+    <div id="maket1"></div>-->
+    <div id="hidden-box">
+        <div class="popap" id="pop1">
+        <a href="#" class="close"></a>
+            <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
+            <p>Наш менеджер свяжется с вами в течение 30 минут<br> и уточнит детали заказа.</p>
+            <form action="">
+                <input type="text" name="name" placeholder="Николай">
+                <input type="text" name="phone" placeholder="Ваш номер">
+                <button type="submit">УЗНАТЬ СТОИМОСТЬ</button>
+            </form>
+        </div>
+        <div id="okgo">Спасибо за заявку!<br>Наш менеджер свяжется с Вами<br>в ближайшее время</div>
+</div>
+    </div>
 <script type=text/javascript src=js/jquery-2.1.4.min.js></script>
 <script type=text/javascript src=js/main.js></script>
 <script type=text/javascript src=js/libs.js></script>
