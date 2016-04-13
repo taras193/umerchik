@@ -1196,12 +1196,45 @@ footer .wrapper {
 .calc-block :-ms-input-placeholder      {color:black;}
 .animation {
     position: relative;
-    top: 200px;
+    top: 600px;
     opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out .5s,top .9s linear .1s;
-    transition: opacity .5s ease-in-out .5s,top .9s linear .1s;
+    -webkit-transition: opacity .75s cubic-bezier(0.53, 0.18, 0.62, 0.91) .75s,top 1s linear 0.25s;
+    transition: opacity .75s ease-in-out .75s,top 1s linear 0.25s;
 }
 .fade-up-custom {
     top: 0px;
     opacity: 1;
-    
+    margin-top: 0px;
+}
+.animation2 {
+    position: relative;
+    top: 600px;
+    transition: all 1s;
+    opacity: 0;
+    -webkit-transition: opacity .75s cubic-bezier(0.53, 0.18, 0.62, 0.91) .75s,top 1s linear 0.25s;
+    transition: opacity .75s ease-in-out .75s,top 1s linear 0.25s;
+}
+.fade-up-custom2 {
+    top: 0px;
+    opacity: 1;
+    margin-top: 0px;
+}
+.animation3 {
+    /* position: relative; */
+    /* top: 600px; */
+    transition: all 1s;
+    transition-delay: 1s;
+    /* opacity: 0; */
+    /* width: 0%; */
+    /* transform: scaleX(0); */
+    /* left: 0; */
+    /* width:0px; */
+}
+.fade-up-custom3 {
+    /* top: 0px; */
+    /* opacity: 1; */
+    /* margin-top: 0px; */
+    /* width: 100%; */
+    /* transform: scaleX(1); */
+    transition: width 2s;
+}

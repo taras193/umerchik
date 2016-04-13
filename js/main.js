@@ -4,14 +4,20 @@ $(document).ready(function() {
       scrollingSpeed: 1000,
       navigation:false,
       afterLoad: function(anchorLink, index){
-                    $(this).find('.animation').addClass('fade-up-custom');
+            $(this).find('.animation').addClass('fade-up-custom');
+            $(this).find('.animation2').addClass('fade-up-custom2');
+            $(this).find('.animation3').addClass('fade-up-custom3');
           },
       onLeave: function(index, nextIndex, direction){
             $('.section:nth-child('+nextIndex+')').find('.animation').addClass('fade-up-custom');
+            $('.section:nth-child('+nextIndex+')').find('.animation2').addClass('fade-up-custom2');
+            $('.section:nth-child('+nextIndex+')').find('.animation3').addClass('fade-up-custom3');
             //$('.section:nth-child('+nextIndex+')').find('.animation2').addClass('fadeInDown animated');
           },
       afterRender: function(){
-            setTimeout(function(){$('section.section.active').find('.animation').addClass('fade-up-custom')},500);
+            setTimeout(function(){$('section.section.active').find('.animation').addClass('fade-up-custom')},200);
+            setTimeout(function(){$('section.section.active').find('.animation2').addClass('fade-up-custom2')},400);
+            setTimeout(function(){$('section.section.active').find('.animation3').addClass('fade-up-custom3')},400);
       }
     });
  });
