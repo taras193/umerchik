@@ -1,8 +1,5 @@
 $(document).ready(function() {
    $('#pages').fullpage({
-      scrollBar:true,
-      scrollingSpeed: 1000,
-      navigation:false,
       afterLoad: function(anchorLink, index){
             //$(this).find('.animation').addClass('fade-up-custom');
             //$(this).find('.animation2').addClass('fade-up-custom2');
