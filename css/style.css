@@ -710,7 +710,19 @@ button,
     margin: 0 auto;
     background-color: #c3a17d;
 }
-
+.sec5-arr-wrap{
+    height: 600px;
+    width: 50px;
+    display: inline-block;
+    position: absolute!important;
+    z-index: 2;
+}
+.sec5-arr-wrap:nth-child(1){
+    left: 0;
+}
+.sec5-arr-wrap:nth-child(2){
+    right: 0;
+}
 .left-arr {
     position: absolute;
     background: url(../img/arrow1.png);
@@ -781,7 +793,7 @@ button,
     margin-top: 52px;
     line-height: 69px;
 }
-#s7{margin-top: 12px;top: 47.75%;}
+#s7{margin-top: 12px;top: 47.75%;height: 526px;}
 .sec7 {
     background: url(../img/bg7.jpg);
     height: 1080px;
@@ -814,13 +826,31 @@ button,
     width: 100px;
     height: 118px;
 }
-
+.sec7 .content .s7-trig:nth-child(1){transition-delay: 0.4s;}
+.sec7 .content .s7-trig:nth-child(2){
+    transition-delay: 0.7s;
+}
+.sec7 .content .s7-trig:nth-child(3){
+    transition-delay: 1s;
+}
+.sec7 .content .s7-trig:nth-child(4){
+    transition-delay: 1.3s;
+}
 .sec7 .content .s7-trig {
     position: relative;
     margin-top: 0px;
     vertical-align: top;
 }
-
+.animation4{
+    opacity: 0;
+    transition: opacity 0.5s,height 0.5s;
+    height: 130px;
+    overflow: hidden;
+}
+.fade-in-custom{
+    opacity: 1;
+    height: 300px;
+}
 .sec7 .content .s7-trig:nth-child(2n) {
     margin-top: 167px;
 }
@@ -873,7 +903,7 @@ button,
 
 .line {
     position: absolute;
-    background: url(../img/line.png) no-repeat center;
+    background: url(../img/line.png) no-repeat left center;
     width: 1356px;
     height: 96px;
     top: 48%;
@@ -1196,7 +1226,7 @@ footer .wrapper {
 .calc-block :-ms-input-placeholder      {color:black;}
 .animation {
     position: relative;
-    top: 600px;
+    top: 200px;
     opacity: 0;
     -webkit-transition: opacity .75s cubic-bezier(0.53, 0.18, 0.62, 0.91) .75s,top 1s linear 0.25s;
     transition: opacity .75s ease-in-out .75s,top 1s linear 0.25s;
@@ -1228,13 +1258,13 @@ footer .wrapper {
     /* width: 0%; */
     /* transform: scaleX(0); */
     /* left: 0; */
-    /* width:0px; */
+    width:0px;
 }
 .fade-up-custom3 {
     /* top: 0px; */
     /* opacity: 1; */
     /* margin-top: 0px; */
-    /* width: 100%; */
+    width: 1356px;
     /* transform: scaleX(1); */
-    transition: width 2s;
+    transition: width 3s;
 }
