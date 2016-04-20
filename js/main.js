@@ -40,7 +40,6 @@ $('.tr-hov li').click(function(){
   $('input[name="step3"]').val($(this).text());
 });
 
-
 $('.btn_p1').click(function(e) {
     e.preventDefault();
     $('#pop1').arcticmodal();
@@ -182,6 +181,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 function initfullpage() {
    $('#pages').fullpage({
+    navigation: true,
+        autoScrolling: false,
       afterLoad: function(anchorLink, index){
             $(this).find('.animation').addClass('fade-up-custom');
             $(this).find('.animation2').addClass('fade-up-custom2');

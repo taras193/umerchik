@@ -16,7 +16,7 @@ html.fp-enabled,
 .fp-scrollable{overflow:scroll;}
 .fp-notransition{-webkit-transition:none !important;transition:none !important;}
 #fp-nav{position:fixed;z-index:100;margin-top:-32px;top:50%;opacity:1;-webkit-transform:translate3d(0,0,0);}
-#fp-nav.right{right:0px;}
+#fp-nav.right{left: 0px;}
 #fp-nav.left{left:17px;}
 .fp-slidesNav{position:absolute;z-index:4;left:50%;opacity:1;}
 .fp-slidesNav.bottom{bottom:17px;}

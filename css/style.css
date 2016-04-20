@@ -51,15 +51,21 @@ header .parag:after{left:-10%}
 .tr-radio{position:relative;display:inline-block;margin-bottom:10px;height:28px;padding-left:30px;padding-right:8px;line-height:30px}
 .trig-2{text-align:left;margin-left:32px;margin-top:33px;font-size:14px;position:relative}
 .trig-2:nth-child(2){margin-top:17px}
+.sec5 .trig-2{margin-top: 25px;margin-left: 0;text-align: center;}
 .left .trig-2:nth-child(3){margin-top:17px}
 .left{float:left}
 .calc-block .left:nth-child(2){margin-left:35px}
 .calc-block .left:nth-child(3){margin-left:13px;margin-top:42px}
 .calc-block .left:nth-child(2) .trig-2:nth-child(3){margin-top:13px}
 .tr-head{color:#b99977;font-size:16px;padding-left:8px}
+.sec5 .tr-head{
+    padding-left: 0px;
+    display: inline-block;
+}
 .tr-hov{margin-top:10px;position:absolute;display:none;top:33px;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.2)}
-.tr-hov ul{list-style:none}
-.tr-hov li{padding:4px 18px;color:#000}
+.sec5 .tr-hov{left: 50%;position: absolute;z-index: 10;margin-top: 0px;top: 24px;left: 113px;}
+.tr-hov ul{list-style:none;}
+.tr-hov li{padding:4px 18px;color:#000;}
 .tr-hov li:hover{background:#faf8f5;color:#e0cfbd}
 .tr-hov li:active{background:#faf8f5;color:#e0cfbd}
 .tr-hov .active_l{background:#faf8f5;color:#e0cfbd}
@@ -97,15 +103,15 @@ input{padding-left:20px}
 .btn{width:162px;height:60px;display:block;text-align:center;line-height:60px;cursor:pointer}
 #s5{margin-top:13.5px;top:46.65%}
 .sec5{background:url(../img/bg5.jpg);height:1081px;background-size:cover}
-.sec5 h2{font-size:29px;padding-bottom:50px}
+.sec5 h2{font-size:29px;padding-bottom: 35px;}
 .sec5 .goods{text-align:center;letter-spacing:0;vertical-align:top;margin-bottom:47px;text-align:center;padding-top:20px}
-.sec5 .goods .item{position:relative;-webkit-transition:all .25s;transition:all .25s}
-.sec5 .bx-viewport{height:410px!important}
+.sec5 .goods .item{position:relative;-webkit-transition:all .25s;transition:all .25s;}
+.sec5 .bx-viewport{height: 423px!important;}
 .sec5 .text{position:relative;margin-top:36px;margin-bottom:10px;color:#fff;font-family:Times;font-size:24px;font-style:italic}
 .sec5 .price{color:#c3a17d;font-family:RoboReg;font-size:16px;font-style:italic}
 .sec5 .text:after{left:48px}
 .sec5 .text:before{right:48px}
-.sec5 .btn{width:537px;height:60px;background-color:#c3a17d;margin:0 auto;text-transform:uppercase;margin-top:47px}
+.sec5 .btn{width:537px;height:60px;background-color:#c3a17d;margin:0 auto;text-transform:uppercase;margin-top: 29px;}
 .sec5 .item .img{position:relative;-webkit-transition:all .25s;transition:all .25s;z-index:2}
 .sec5 .item.hover .btn,.sec5 .item:hover .btn{opacity:1;-webkit-transition:all .25s;transition:all .25s}
 .sec5 .item.hover .img,.sec5 .item:hover .img{-webkit-transform:scale(1.1);transform:scale(1.1);-webkit-transition:all .25s;transition:all .25s;z-index:3}
@@ -204,10 +210,20 @@ footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
 .slde:after{position:absolute;height:100%;left:0;top:0;background:rgba(0,0,0,.66);z-index:2;-webkit-transition:opacity .5s,-webkit-transform .5s;transition:opacity .5s,transform .5s}
 .slde.active img{-webkit-transform:scale(1.1);transform:scale(1.1)}
 .sld img{-webkit-transition:all .5s;transition:all .5s}
-.tr-body{padding-left:5px;background:url(../img/down-arr.png) no-repeat;background-position:86px 8px;cursor:pointer;width:100px;float:left}
+.tr-body{padding-left:5px;background:url(../img/down-arr.png) no-repeat;background-position:86px 8px;cursor:pointer;width:100px;float:left;height: 30px;}
+.sec5 .tr-body{background:url(../img/down-arr.png) no-repeat;background-position: 88px 8px;color: white;}
 .tr-body:hover+.tr-hov{display:block}
 .tr-hov:hover{display:block;cursor:pointer}
+.tr-body:active+.tr-hov{display:block}
+.tr-hov:active{display:block;cursor:pointer}
 .trig-2 .active_tr{display:block;cursor:pointer}
+.sec5 .trig-2 .active_tr {
+    display: inline-block;
+    float: none;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
 ::-webkit-input-placeholder{color:#fff}
 ::-moz-placeholder{color:#fff}
 :-moz-placeholder{color:#fff}
@@ -239,3 +255,4 @@ footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
 .popap p{color:#000;margin-bottom:50px;font-size:24px;font-family:Lora;font-style:italic}
 .popap h2:after{content:'';position:absolute;background:url(../img/sec2-ico.png) no-repeat center;width:60px;height:20px;left:50%;margin-left:-30px;margin-top:0}
 .close{background:url(../img/close.png) no-repeat top center;position:absolute;width:17px}
+body #fp-nav.right {left: 0px;
