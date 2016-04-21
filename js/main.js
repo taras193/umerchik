@@ -34,10 +34,18 @@ $('.tr-radio').click(function(e){
 });
 
 $('.tr-hov li').click(function(){
-  $('.tr-hov li').removeClass('active_l');
-  $(this).addClass('active_l');
-  $('.tr-body.active_tr').html($(this).text());
-  $('input[name="step3"]').val($(this).text());
+  if ($(this).parents('.trig-2').hasClass('sld-trig')) {
+    $(this).parents('.trig-2').find('li').removeClass('active_l');
+    $(this).addClass('active_l');
+    $(this).parents('.trig-2').find('.tr-body.active_tr').html($(this).text());
+    $(this).parents('.item').find('.price-val').html($(this).data('price'));
+  }else{
+    $('.sec2 .tr-hov li').removeClass('active_l');
+    $(this).addClass('active_l');
+    $('.sec2 .tr-body.active_tr').html($(this).text());
+    $('input[name="step3"]').val($(this).text());
+
+  }
 });
 
 $('.btn_p1').click(function(e) {
