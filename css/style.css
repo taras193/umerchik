@@ -23,7 +23,7 @@ body{font-family:RoboReg,sans-serif}
 .header-head{position:absolute;width:100%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);max-width:1600px;padding:0 20px;z-index:10}
 .slice{position:absolute;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
 #s1{margin-top:175.5px;top:27.85%}
-.logo{float:left;background:url(../img/logo-img.png) no-repeat center;width:335px;height:110px}
+.logo{float:left;background:url(../img/logo-img.png) no-repeat center;width: 287px;height:110px;}
 .phone{float:right;margin:25px 0 0;text-align:right}
 .header-text{display:inline-block;font-family:proxima;font-weight:300;font-size:24px;margin:24px auto 0}
 .phone a{display:block;font-size:30px}
@@ -197,7 +197,7 @@ input{padding-left:20px}
 .sec10 button{width:530px;height:55px;-webkit-transition:all .25s;transition:all .25s}
 .sec10 .vis{background:url(../img/sec3-ico.png) no-repeat center;width:90px;height:23px;top:35%;left:13%}
 footer{background:#191b1e;min-height:0;position:absolute;bottom:0;padding:6px 0;z-index:3}
-footer .logo{background:url(../img/logo-sml.png) no-repeat center;width:197px;height:65px}
+footer .logo{width:197px;height:65px;background: url(../img/logo-img.png) no-repeat center;background-size: contain;}
 footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
 .maketext{float:right;color:#fff;font-size:14px;margin-right:25px;text-align:right;padding-right:36px}
 .logo2{float:right;background:url(../img/gulf-logo.png) no-repeat bottom;height:66px;width:228px}
