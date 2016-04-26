@@ -114,6 +114,7 @@ function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + 
             var region = $(this).find('region').text();
             if(city!=region){var ipg = city+', '+region;}else{var ipg = city;}
             $('<input type="hidden" />').attr({name: 'location', class: 'location', value:ipg}).appendTo("form");
+
         });}});
     }
     $.get("http://ipinfo.io", function(response) {geo_url='http://ipgeobase.ru:7020/geo?ip='+response.ip; run_geo(geo_url);}, "jsonp");
@@ -147,7 +148,9 @@ function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + 
             $.ajax({type: type, url: url, data: data,
             success : function(){
                 $.arcticmodal('close');$('#okgo').arcticmodal();
+                yaCounter37007745.reachGoal('form_one');
             }
+
         }); 
         }
     });

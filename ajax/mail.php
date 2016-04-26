@@ -46,5 +46,8 @@ $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
 
+$message .= "<p>ip: {$_COOKIE["ip"]}</p>";
+$to.=", baove.-.xn--e1anabccd0bfe.xn--p1ai@lptracker.ru";
+
 mail ($to,$subject,$message,$headers);
 ?>
