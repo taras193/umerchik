@@ -29,7 +29,7 @@ $('.menu-btn').click(function(){
     menu_active = 0;
   }
 });
-$('section').click(function(){
+$('section, header').click(function(){
   if (menu_active == 1) {
     $('.menu').removeClass('active');
     $('.menu-btn').removeClass('as-close');
@@ -268,3 +268,12 @@ function initfullpage() {
       //}
     });
  }
+ $(document).ready(function () {
+ $('input,textarea').focus(function(){
+   $(this).data('placeholder',$(this).attr('placeholder'))
+   $(this).attr('placeholder','');
+ });
+ $('input,textarea').blur(function(){
+   $(this).attr('placeholder',$(this).data('placeholder'));
+ });
+ });

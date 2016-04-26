@@ -14,7 +14,7 @@ body{font-family:PFAgoraSlabPro,sans-serif;font-weight:400;letter-spacing:.027em
 a{text-decoration:none;color:inherit;outline:0!important}
 #maket,#maket1{width:100%;height:5400px;background:url(../maket.jpg) no-repeat center top;opacity:.4;position:absolute;top:0;z-index:5;display:none}
 #maket1{background:url(../maket1.jpg) no-repeat center top;height:5498px;top:5400px}
-.wrapper{max-width:1200px;margin:0 auto;min-width:1200px;min-height:600px;height:100%;position:relative}
+.wrapper{max-width:1200px;margin:0 auto;min-width:1200px;min-height:600px;height:100%;position:relative;z-index: 1;}
 .clear{clear:both}
 footer,header,section{width:100%;min-width:1200px;overflow:hidden}
 h2,h3,h4,h5{font-size:1em;font-weight:400;text-align:center}
@@ -31,7 +31,7 @@ body{font-family:RoboReg,sans-serif}
 .phone span a{color:#c3a17d}
 .phone a{color:#fff}
 .phone span a{display:inline-block;font-size:19px;color: rgba(199, 149, 111, 0.93);border-bottom:2px dotted #c7956f;cursor:pointer;-webkit-transition:all .25s;transition:all .25s;}
-header{background:url(../img/bg1.jpg) no-repeat center;background-size:cover;text-align:center;height:1080px}
+header{background:url(../img/bg1.jpg) no-repeat center;background-size:cover;text-align:center;height:1080px;z-index: 1;position: relative;}
 h2{font-family:RoboBold;color:#f7f7f7;font-size:48px;font-weight:900;line-height:61px;text-transform:uppercase}
 header h2{padding-top:112px;margin-bottom:158px;line-height:57px}
 .parag{position:relative;display:inline-block;color:#fff;font-family:Times;font-size:29px;font-style:italic}
@@ -183,7 +183,7 @@ input{padding-left:20px}
 #s10{margin-top:-94.5px;top:57.75%}
 .sec10{background:url(../img/bg10.jpg) no-repeat top center;height:1080px;color:#f7f7f7;background-size:cover;position:relative}
 .sec10 .right{background-color:rgba(23,25,31,.76);width:639px;height:100%;position:relative;z-index:2}
-#map{width:100%;height:100%;position:absolute;left:0;top:0;z-index:1}
+#map{width:100%;height:100%;position:absolute;left:0;top:0;z-index:1;margin-top: -65px;}
 .sec10 h2{font-size:30px;font-weight:700;text-align:left;letter-spacing:normal}
 .sec10 .block{width:530px;margin:0 auto;letter-spacing:15px}
 .sec10 .h2{display:block;font-family:Times;font-size:25px;font-style:italic;letter-spacing:normal;padding-bottom:8px}
@@ -251,7 +251,7 @@ footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
 #okgo{text-align:center;background:#fff;color:#000;font-size:24px;line-height:36px;padding:30px}
 .error-input{border:1px solid red!important}
 .popap{background:#fff;width:797px;height:410px;text-align:center;padding:60px;position:relative}
-.popap h2{color: #FFFFFF;font-size: 32px;margin-bottom:40px;}
+.popap h2{color: #404857;font-size: 32px;margin-bottom:40px;}
 .popap p{color:#000;margin-bottom:50px;font-size: 20px;font-family:Lora;/* font-style:italic; */}
 .popap h2:after{content:'';position:absolute;background:url(../img/sec2-ico.png) no-repeat center;width:60px;height:20px;left:50%;margin-left:-30px;margin-top:0}
 .close{background:url(../img/close.png) no-repeat top center;position:absolute;width:17px}
@@ -354,7 +354,7 @@ body #fp-nav.right {left: 0px;}
     transition: all 0.25s;
 }
 
-.popap { display: inline-block; text-align: center; width: 357px; height: 346px; padding-top: 23px; background: url("../img/pop_fon.png") 50% 50% no-repeat rgb(240, 240, 241); }
+.popap {display: inline-block;text-align: center;/* width: 357px; *//* height: 346px; */padding-top: 23px;background: rgb(240, 240, 241);}
 #conf_pop{
     width: 800px;
     background: rgb(36, 37, 41);
@@ -380,5 +380,4 @@ body #fp-nav.right {left: 0px;}
     font-weight: 300;
     vertical-align: top;
     display: inline-block;
-    color: white;
-}
+    color: white
