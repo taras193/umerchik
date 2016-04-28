@@ -32,8 +32,8 @@ body{font-family:RoboReg,sans-serif}
 .phone a{color:#fff}
 .phone span a{display:inline-block;font-size:19px;color: rgba(199, 149, 111, 0.93);border-bottom:2px dotted #c7956f;cursor:pointer;-webkit-transition:all .25s;transition:all .25s;}
 header{background:url(../img/bg1.jpg) no-repeat center;background-size:cover;text-align:center;height:1080px;z-index: 1;position: relative;}
-h2{font-family:RoboBold;color:#f7f7f7;font-size:48px;font-weight:900;line-height:61px;text-transform:uppercase}
-header h2{padding-top:112px;margin-bottom:158px;line-height:57px}
+h2{font-family:RoboBold;color:#f7f7f7;font-size:48px;font-weight:900;line-height:61px;text-transform:uppercase;}
+header h2{padding-top:112px;margin-bottom:158px;line-height:57px;font-weight: 400;font-family: RoboReg,sans-serif;}
 .parag{position:relative;display:inline-block;color:#fff;font-family:Times;font-size:29px;font-style:italic}
 #s2{margin-top:0;top:54.8%}
 .sec2 h2:after{content:'';position:absolute;background:url(../img/sec2-ico.png) no-repeat center;width:60px;height:20px;left:50%;margin-left:-30px;margin-top:0}
@@ -249,7 +249,7 @@ footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
 .arcticmodal-container_i{margin:0 auto;height:100%}
 .arcticmodal-container_i2{margin:0;border:0;vertical-align:middle}
 #okgo{text-align:center;background:#fff;color:#000;font-size:24px;line-height:36px;padding:30px}
-.error-input{border:1px solid red!important}
+.error-input{border:1px solid red!important;background: #FFCBDB!important;}
 .popap{background:#fff;width:797px;height:410px;text-align:center;padding:60px;position:relative}
 .popap h2{color: #404857;font-size: 32px;margin-bottom:40px;}
 .popap p{color:#000;margin-bottom:50px;font-size: 20px;font-family:Lora;/* font-style:italic; */}
@@ -380,4 +380,19 @@ body #fp-nav.right {left: 0px;}
     font-weight: 300;
     vertical-align: top;
     display: inline-block;
-    color: white
+    color: white;
+}
+.header-head p{
+	
+display: inline-block;
+	
+color: white;
+	
+font-size: 20px;
+	
+margin-top: 45px;
+}
+.error-input::-webkit-input-placeholder{color:black}
+.error-input::-moz-placeholder{color:black}
+.error-input:-moz-placeholder{color:black}
+.error-input:-ms-input-placeholder{color:black}

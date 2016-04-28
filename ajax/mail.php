@@ -26,7 +26,7 @@ $subject = 'Заявка Zastroy';
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "mont-y@yandex.ru";
+$to = "monument-moscow@list.ru";
 
 $message = "Имя: $name\n";
 $message .= "Телефон: $phone\n";
