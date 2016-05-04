@@ -1,5 +1,4 @@
-﻿?>
-<?php
+﻿<?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
@@ -18,7 +17,7 @@ $location = $_POST['location'];
 $url = $_POST['url'];
 $title = $_POST['title'];
 
-$subject = 'Заявка Zastroy';	
+$subject = 'Заявка Памятники';	
 
 //$headers= "From: noreply <noreply@noreply.ru>\r\n";
 //$headers.= "Reply-To: noreply <noreply@noreply.ru>\r\n";
@@ -47,7 +46,8 @@ $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
 
 $message .= "<p>ip: {$_COOKIE["ip"]}</p>";
-$to.=", baove.-.xn--e1anabccd0bfe.xn--p1ai@lptracker.ru";
+$to .= ", baove.-.xn--e1anabccd0bfe.xn--p1ai@lptracker.ru, triowork2@gmail.com";
 
-mail ($to,$subject,$message,$headers);
+if(mail($to,$subject,$message,$headers)){echo "true";}
+
 ?>
