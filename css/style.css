@@ -83,7 +83,7 @@ header .parag:after{left:-10%}
 .right{float:right}
 .btn,button,input{width:167px;height:62px;background-color:#e5e5e5;vertical-align:top;border:none;outline:0}
 input{padding-left:20px}
-.btn,button{width:230px;height:62px;background-color:#c3a17d;color:#fff;-webkit-transition:all .25s;transition:all .25s}
+.btn,button{width:230px;height:62px;background-color:#c3a17d;color:#fff;-webkit-transition:all .25s;transition:all .25s;letter-spacing: normal}
 .calc-block .top{margin-bottom:59px}
 #s3{margin-top:67.5px;top:39.45%}
 .sec3{background:url(../img/bg3.jpg) no-repeat center;color:#f7f7f7;height:1080px;background-size:cover}

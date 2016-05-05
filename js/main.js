@@ -1,5 +1,6 @@
+$('<link rel=stylesheet type=text/css href=css/libs.css><link rel=stylesheet type=text/css href=css/style.css>').appendTo('head');
 $(document).ready(function() {
- 
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     
     $('<style>section,.section{display:block;height:1080px!important}.animation,.animation2,.animation4{opacity:1;top:0;}.animation3{width:1356px}</style>').appendTo('head');
