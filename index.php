@@ -424,7 +424,7 @@
     </section>
     <section class="sec10 section" id="sec10">
     <div id="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=8nhrFTW3gyaZQxJt8vnok8CsfZ7n-kdu&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Mci1NbGbJXVPDFCWaTquJc1eN8EC22d5&lang=ru_UA&sourceType=constructor&scroll=true"></script>
     </div>
         <div class="right">
          <div class="middle-wrap">
@@ -433,7 +433,7 @@
             <form class="block" action="ajax/mail.php" method="post">
                 <h2>Контактная информация</h2>
 
-                <span class="h2">г. Мытищи, Волковское шоссе - проезд 497</span>
+                <span class="h2">100 метров от ТК Бородино<br>Осташковское шоссе д. 59</span>
                 <a href="tel:84952074432" class="tel"><span class="lptracker_phone">8 (495) 207 44 32</span></a>
                 <a href="monument-moscow@list.ru" class="mail">monument-moscow@list.ru</a>
 
