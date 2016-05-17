@@ -87,8 +87,9 @@ input{padding-left:20px}
 .sec3 .left img{position:absolute;top:22.1%;margin-left:-15px}
 .sec3 .right{position:relative;text-align:left;width:585px}
 .sec3 h2,.sec4 h2{text-align:left}
-.sec3 .vis{background:url(../img/sec3-ico.png) no-repeat center;width:90px;height:23px;left:7.7%;top:52.6%}
+.sec3 .vis{background:url(../img/sec3-ico.png) no-repeat center;width:90px;height:23px;left:7.7%;top: 220px;}
 .text{margin-top:104px;color:#fff;font-family:Times;font-size:24px;font-style:italic;line-height:36px}
+.sec3 .text {padding-right: 50px;}
 #s4{margin-top:54px;top:39%}
 .sec4{background:url(../img/bg4.jpg) no-repeat center;height:1080px;background-size:cover;position: relative;}
 .sec4 .block{position:relative;width:650px;background:#fff;z-index:100;float:left}
