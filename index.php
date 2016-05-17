@@ -433,7 +433,7 @@
             <form class="block" action="ajax/mail.php" method="post">
                 <h2>Контактная информация</h2>
 
-                <span class="h2">100 метров от ТК Бородино<br>Осташковское шоссе д. 59</span>
+                <span class="h2">Осташковское шоссе, д. Болтино</span>
                 <a href="tel:84952074432" class="tel"><span class="lptracker_phone">8 (495) 207 44 32</span></a>
                 <a href="monument-moscow@list.ru" class="mail">monument-moscow@list.ru</a>
 

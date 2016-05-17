@@ -187,13 +187,13 @@ input{padding-left:20px}
 .sec10 .h2{display:block;font-family:Times;font-size:25px;font-style:italic;letter-spacing:normal;padding-bottom:8px}
 .sec10 .tel{display:block;font-size:28px;padding-bottom:6px;letter-spacing:normal}
 .sec10 a.mail{color:#977f66;display:inline;border-bottom:1px dotted #977f66;letter-spacing:normal}
-.sec10 h3{text-transform:uppercase;text-align:left;font-size:30px;padding-top: 40px;letter-spacing:normal;}
+.sec10 h3{text-transform:uppercase;text-align:left;font-size:30px;padding-top: 67px;letter-spacing:normal;}
 .sec10 textarea{width:100%;height:96px;background-color:rgba(14,16,20,.9);color:#c3c4c4;margin-top:10px;padding:17px 25px;font-size:18px;border:none;outline:0;resize:none}
 .sec10 textarea:placeholder{color:#c3c4c4}
 .sec10 input{width:255px;height:44px;background-color:rgba(14,16,20,.9);color:#c3c4c4;margin-top:10px;margin-bottom:16px;padding-left:19px;font-size:16px}
 .sec10 input:focus,.sec10 textarea:focus{border-top:2px solid #c3a17d}
 .sec10 button{width:530px;height:55px;-webkit-transition:all .25s;transition:all .25s}
-.sec10 .vis{background:url(../img/sec3-ico.png) no-repeat center;width:90px;height:23px;top: 37%;left:13%;}
+.sec10 .vis{background:url(../img/sec3-ico.png) no-repeat center;width:90px;height:23px;top: 35%;left:13%;}
 footer{background:#191b1e;min-height:0;position:absolute;bottom:0;padding:6px 0;z-index:3;text-align:center}
 footer .logo{width: 228px;height:65px;background: url(../img/logo-img.png) no-repeat top left;background-size:contain;}
 footer .wrapper{min-height:0;max-width:1600px;padding:0 20px}
