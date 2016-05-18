@@ -294,7 +294,7 @@ body #fp-nav.right{left:0}
 #conf_pop{width:800px;background:#242529;text-align:left;padding:28px;height:inherit}
 #conf_pop p{margin:10px 0;color:#fff}
 .confbtn{display:inline-block;border-bottom:1px dashed #fff;font-size:16px;font-weight:300;margin-bottom:10px}
-.foot_conf{margin: 8px 17% 0px;font-size:16px;font-weight:300;vertical-align:top;display:inline-block;color:#fff;vertical-align: top;}
+.foot_conf{margin: 8px 16% 0px;font-size:16px;font-weight:300;vertical-align:top;display:inline-block;color:#fff;vertical-align: top;}
 .header-head p{display:inline-block;color:#fff;font-size:20px;margin: 45px 8% 0px;vertical-align: top;/* float: left; */width: 370px;}
 .error-input::-webkit-input-placeholder{color:#000}
 .error-input::-moz-placeholder{color:#000}

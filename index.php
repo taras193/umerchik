@@ -64,9 +64,12 @@
                             <div class="tr-head">Размер</div>
                             <div class="tr-body active_tr">120х50х10</div>
                             <div class="tr-hov"><ul>
-                                <li class="active_l">120х50х10</li>
-                                <li>120х50х20</li>
-                                <li>120х50х30</li>
+                                <li class="active_l">100х50х5</li>
+                                <li>100х50х8</li>
+                                <li>100х50х10</li>
+                                <li>120х60х5</li>
+                                <li>120х60х8</li>
+                                <li>120х60х10</li>
                             </ul></div>
                         </div>
 
