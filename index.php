@@ -39,6 +39,110 @@
             </div>
         </div>
     </header>
+        <section class="sec3 section" id="sec3">
+        <div class="wrapper">
+         <div class="middle-wrap">
+          <div class="slice" id="s3">
+            <div class="left"><img src="img/fundament.png" alt=""></div>
+            <div class="right">
+                <h2>Установкa <br>
+плавающего <br>
+фундамента</h2> <span class="vis"></span>
+
+                <p class="text">Памятники нашего производства оснащаются
+                     плавающим фундаментом, это решает вопрос
+                     деформации, падения или перекосов памятников
+                     при движении грунтовых вод</p>
+            </div>
+           </div>
+          </div>
+         </div>
+    </section>
+    <section class="sec_n section">
+        <div class="wrapper">
+        	<div class="slice" id="sn1">
+        		<h2>Ответьте на вопросы и мы <br>подберем для вас лучшее решение</h2>
+        	</div>
+        	<div class="slice" id="sn2">
+        	<div class="gr_sl">
+        		<div class="sln_gr active" id="f_n1">
+        			<h3>У вас уже разработан проект памятника?</h3>
+        			<a href="" class="btn_n1 clik12">Проектa нет, нужно разработать</a>
+        			<a href="" class="btn_n1 clik12">Да, проект есть, нужен просчет</a>
+        			<a href="" class="btn_n1 clik3">Я ищу обычный, типовой проект</a>
+        		</div>
+        		<div class="sln_gr" id="f_n2">
+        			<h3>Из какого материала хотите <br>делать памятник?</h3>
+        			<a href="" class="btn_n2 next3">Мрамор<br><span>Дешевле</span></a>
+        			<a href="" class="btn_n2 next3">Гранит<br><span>Дороже</span></a>
+        			<a href="" class="back">Назад</a>
+        		</div>
+        		<div class="sln_gr" id="f_n3">
+        			<h3>Какой тип гравировки вас интересует?</h3>
+        			<a href="" class="btn_n2 next4">Механическая<br><span>Дешевле</span></a>
+        			<a href="" class="btn_n2 next4">Ручная<br><span>Дороже</span></a>
+        			<a href="" class="back">Назад</a>
+        		</div>
+        		<div class="sln_gr" id="f_n4">
+        			<h3>Заполните форму и мы подберем <br>для вас идеальное решение</h3>
+        			<form action="ajax/mail.php" method="post">
+                    	<input type="text" name="name" placeholder="Ваше имя">
+                    	<input type="text" name="phone" placeholder="Введите телефон">
+                    	<button type="submit">ОТПРАВИТЬ</button>
+                	</form>
+                	<a href="" class="back">Назад</a>
+        		</div>        		
+        		<div class="sln_gr" id="f_n5">
+        			<h3>Выберите ценовой диапазон:</h3>
+        			<a href="" class="btn_n1 next6">до 20 000 рублей</a>
+        			<a href="" class="btn_n1 next6">от 20 000 до 50 000 рублей</a>
+        			<a href="" class="btn_n1 next6">от 50 000 до 100 000 рублей</a>
+        			<a href="" class="btn_n1 next6">от 100 000 рублей</a>
+        			<a href="" class="back">Назад</a>
+        		</div>
+        		<div class="sln_gr" id="f_n6">
+        			<h3>Выберите типовую модель<br><span>На нашем складе представлено более 100 типовых моделей</span></h3>
+        			<div class="sld_n">
+                    	<div id="sldn">
+                        	<div class="slde_n"><img src="img/pam/rip1.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip2.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip3.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip4.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip5.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip6.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip7.jpg" alt=""></div>
+                        	<div class="slde_n"><img src="img/pam/rip8.jpg" alt=""></div>
+                    	</div>
+                    	<a href="" class="ar_l"></a>
+                    	<a href="" class="ar_r"></a>
+                	</div>
+        			<a href="" class="btn_n3 next7">Не нашел подходящую</a>
+        			<a href="" class="btn_n3 next7">Далее</a>
+        			<a href="" class="back">Назад</a>
+        		</div>
+        	</div>
+        	</div>
+        </div>
+    </section>
+    <section class="sec4 section" id="sec4">
+        <div class="wrapper">
+         <div class="middle-wrap">
+          <div class="slice" id="s4">
+            <div class="block">
+                <div class="group">
+                    <h2>Примеры работ 
+наших мастеров</h2>
+                    <div class="vis"></div>
+                    <p class="text">Вы можете заказать гравировку изображения и
+                        <br> портрета ручной работы с нанесением
+                        <br> минеральной покраски</p>
+                    <a class="btn btn_p1">ЗАКАЗАТЬ</a>
+                </div>
+            </div>
+          </div>
+         </div>
+        </div>
+    </section>
     <section class="sec2 section" id="sec2">
         <div class="wrapper">
         <div class="middle-wrap">
@@ -116,44 +220,6 @@
             </div>
             </div>
         </div>
-        </div>
-    </section>
-    <section class="sec3 section" id="sec3">
-        <div class="wrapper">
-         <div class="middle-wrap">
-          <div class="slice" id="s3">
-            <div class="left"><img src="img/fundament.png" alt=""></div>
-            <div class="right">
-                <h2>Установкa <br>
-плавающего <br>
-фундамента</h2> <span class="vis"></span>
-
-                <p class="text">Памятники нашего производства оснащаются
-                     плавающим фундаментом, это решает вопрос
-                     деформации, падения или перекосов памятников
-                     при движении грунтовых вод</p>
-            </div>
-           </div>
-          </div>
-         </div>
-    </section>
-    <section class="sec4 section" id="sec4">
-        <div class="wrapper">
-         <div class="middle-wrap">
-          <div class="slice" id="s4">
-            <div class="block">
-                <div class="group">
-                    <h2>Примеры работ 
-наших мастеров</h2>
-                    <div class="vis"></div>
-                    <p class="text">Вы можете заказать гравировку изображения и
-                        <br> портрета ручной работы с нанесением
-                        <br> минеральной покраски</p>
-                    <a class="btn btn_p1">ЗАКАЗАТЬ</a>
-                </div>
-            </div>
-          </div>
-         </div>
         </div>
     </section>
     <section class="sec5 section" id="sec5">
@@ -463,12 +529,13 @@
         </div>
     </footer>
     </section>
-    
-
     </div>
-    <!--<div id="maket"></div>
-    <div id="maket1"></div>-->
+    <!--div id="mak"></div-->
     <div id="hidden-box">
+    	<div class="pop_er">
+        	<h3>Пожалуйста, <br>введите правильное имя и телефон!</h3>
+        	<a href="" class="clos">закрыть окно и ввести правильно</a>
+        </div>
         <div class="popap" id="pop1">
         <a href="#" class="close"></a>
             <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
