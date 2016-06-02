@@ -23,7 +23,6 @@
     <header class="section" id="sec1">
         <div class="header-head">
             <div class="logo"></div>
-            <p>Памятники из мрамора и гранита</p>
             <div class="phone">
                 <a href="tel:88002000360"><span class="lptracker_phone">8 (800) 200 03 60</span></a>
                 <span><a href="#" class="btn_p1"  id="zz-btn">Заказать звонок</a></span>
@@ -32,8 +31,8 @@
         <div class="wrapper">
             <div class="middle-wrap">
                 <div class="content slice" id="s1">
-                    <h2>Почтите память своих близких<br> памятником из натурального камня<br> и благоустроенным участком</h2>
-                    <p class="parag">18 лет опыта работы</p>
+                    <h2>Почему каждый шестой памятник искажается черерз 8 лет после установки?</h2>
+                    <p class="parag">Основная причина - движение грунтовых вод</p>
                     <span class="vis"></span>
                 </div>
             </div>
@@ -94,10 +93,9 @@
         		</div>        		
         		<div class="sln_gr" id="f_n5">
         			<h3>Выберите ценовой диапазон:</h3>
-        			<a href="" class="btn_n1 next6">до 20 000 рублей</a>
-        			<a href="" class="btn_n1 next6">от 20 000 до 50 000 рублей</a>
-        			<a href="" class="btn_n1 next6">от 50 000 до 100 000 рублей</a>
-        			<a href="" class="btn_n1 next6">от 100 000 рублей</a>
+        			<a href="" class="btn_n1 next6">до 15 000 рублей</a>
+        			<a href="" class="btn_n1 next6">от 15 000 до 25 000 рублей</a>
+        			<a href="" class="btn_n1 next6">от 25 000 до 50 000 рублей</a>
         			<a href="" class="back">Назад</a>
         		</div>
         		<div class="sln_gr" id="f_n6">
@@ -116,8 +114,8 @@
                     	<a href="" class="ar_l"></a>
                     	<a href="" class="ar_r"></a>
                 	</div>
-        			<a href="" class="btn_n3 next7">Не нашел подходящую</a>
-        			<a href="" class="btn_n3 next7">Далее</a>
+        			<a href="" class="btn_n3 next71">Не нашел подходящую</a>
+        			<a href="" class="btn_n3 silver next7">Далее</a>
         			<a href="" class="back">Назад</a>
         		</div>
         	</div>
@@ -130,8 +128,7 @@
           <div class="slice" id="s4">
             <div class="block">
                 <div class="group">
-                    <h2>Примеры работ 
-наших мастеров</h2>
+                    <h2>Гравировка ручной работы</h2>
                     <div class="vis"></div>
                     <p class="text">Вы можете заказать гравировку изображения и
                         <br> портрета ручной работы с нанесением
