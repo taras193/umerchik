@@ -23,6 +23,7 @@
     <header class="section" id="sec1">
         <div class="header-head">
             <div class="logo"></div>
+            <p>Производство и установка памятников из натурального камня</p>
             <div class="phone">
                 <a href="tel:88002000360"><span class="lptracker_phone">8 (800) 200 03 60</span></a>
                 <span><a href="#" class="btn_p1"  id="zz-btn">Заказать звонок</a></span>
